@@ -1,13 +1,5 @@
 # Diêu Atelier — GitHub Pages
-
-Static copy prepared from the supplied saved Beacons page and assets.
-
-## Publish
-1. Extract this ZIP on your computer.
-2. Create a public GitHub repository named `dieuatelier`.
-3. Upload `index.html`, the `assets` folder, and the other files in this directory into the repository root. Upload the extracted contents, not the ZIP or an enclosing folder.
-4. Open Settings → Pages. Select Deploy from a branch, then main and / (root), and Save.
-5. Visit https://levinhieyagi.github.io/dieuatelier/ after deployment finishes.
+Visit https://levinhieyagi.github.io/dieuatelier/ after deployment finishes.
 
 ## Edit
 - Open index.html in VS Code to change the workshop text and destination links.
