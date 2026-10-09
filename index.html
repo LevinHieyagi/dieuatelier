@@ -199,6 +199,11 @@ a[href*="forms.gle"] .text-sm-normal {
 
 /*Fix background and banner for mobile */
 @media (max-width: 767px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
   .Profile {
     padding-top: 0 !important;
   }
@@ -207,9 +212,10 @@ a[href*="forms.gle"] .text-sm-normal {
     width: 100% !important;
     max-width: 100% !important;
     border-radius: 0 !important;
+    margin-bottom: 0 !important;
   }
 
-  /* Remove the empty space above the header */
+  /* Remove the empty header spacer */
   [aria-label="profile page"] > div > .pointer-events-none {
     display: none !important;
   }
@@ -218,8 +224,25 @@ a[href*="forms.gle"] .text-sm-normal {
     margin-top: 0 !important;
   }
 
+  /* Start the picture at the top */
   [aria-label="portrait header block in profile"] {
     margin-top: 0 !important;
+  }
+
+  /* Widen the buttons on mobile */
+  [aria-label="links block link buttons"] {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    gap: 16px !important;
+  }
+
+  a[href*="forms.gle"] {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 65px !important;
+    margin: 0 !important;
+    padding: 8px 24px !important;
   }
 }
 </style>
